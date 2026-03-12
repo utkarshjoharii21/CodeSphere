@@ -12,12 +12,6 @@ Candidates and interviewers can **join secure rooms, write code, run tests, comm
 
 ---
 
-## 🌐 Live Demo
-Try the platform here: [CodeSphere Live](#)
-> Replace `#` with your actual hosted demo link once deployed
-
----
-
 ## 🌟 Key Features
 
 * 💻 **VSCode-like Code Editor** for coding problems  
@@ -41,7 +35,6 @@ Try the platform here: [CodeSphere Live](#)
 
 ## 🖼 Screenshots
 ![Dashboard Screenshot](frontend/public/screenshot-for-readme.png.png)
-> Replace this with multiple screenshots of your running app
 
 ---
 
@@ -88,12 +81,12 @@ VITE_STREAM_API_KEY=your_stream_api_key
 
 ```
 ▶️ Run Project Locally
-
 1️⃣ Start Backend
-
+```
 cd backend
 npm install
 npm run dev
+
 2️⃣ Start Frontend
 cd frontend
 npm install
