@@ -1,65 +1,75 @@
-# 🚀 Full-Stack Coding Interview Platform
+# 🚀 CodeSphere – Full-Stack Coding Interview Platform
 
-A modern **full-stack web application** designed for conducting **technical coding interviews in real-time**.
-This platform enables two users to join a secure interview room where they can **video call, write code, run test cases, and communicate live**.
+![CodeSphere Banner](./frontend/public/screenshot-for-readme.png)
+
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-C13515?style=for-the-badge&logo=vite&logoColor=white)
+
+A modern **full-stack web application** for conducting **real-time coding interviews**.  
+Candidates and interviewers can **join secure rooms, write code, run tests, communicate via video, and get instant feedback**.
+
+---
+
+## 🌐 Live Demo
+Try the platform here: [CodeSphere Live](#)
+> Replace `#` with your actual hosted demo link once deployed
 
 ---
 
 ## 🌟 Key Features
 
-* 💻 **VSCode-like Code Editor** for solving coding problems
-* 🔐 **Secure Authentication** powered by Clerk
-* 🎥 **Real-time Video Interview Rooms** for interviewer and candidate
-* 📊 **Interactive Dashboard** with activity insights
-* 🎤 **Mic & Camera Controls**, screen sharing and recording
-* 💬 **Live Chat System** during interviews
-* ⚡ **Secure Code Execution Environment**
-* ✅ **Automatic Code Evaluation** based on test cases
-* 🎉 **Visual Feedback** (confetti on success, alerts on failure)
-* 🧩 **Practice Coding Mode** for individual problem solving
-* 🔒 **Room Access Control** (maximum two participants)
-* 🔄 **Background Job Processing** using Inngest
-* 🧰 **REST API** built with Node.js and Express
-* ⚡ **Optimized Data Fetching** using TanStack Query
-* 🤖 **Automated Code Review Assistance** with CodeRabbit
-* 🧑‍💻 **Git & GitHub Workflow** (branches, pull requests, merges)
+* 💻 **VSCode-like Code Editor** for coding problems  
+* 🔐 **Secure Authentication** powered by Clerk  
+* 🎥 **Real-time Video Interview Rooms**  
+* 📊 **Interactive Dashboard** with analytics  
+* 🎤 **Mic & Camera Controls**, screen sharing & recording  
+* 💬 **Live Chat System**  
+* ⚡ **Secure Code Execution Environment**  
+* ✅ **Automatic Code Evaluation**  
+* 🎉 **Visual Feedback** (confetti on success, notifications on fail)  
+* 🧩 **Practice Coding Mode**  
+* 🔒 **Room Access Control** (2 participants max)  
+* 🔄 **Background Jobs** with Inngest  
+* 🧰 **REST API** using Node.js & Express  
+* ⚡ **Optimized Data Fetching** via TanStack Query  
+* 🤖 **Automated Code Review Assistance**  
+* 🧑‍💻 **Git & GitHub Workflow** (branches, PRs, merges)
+
+---
+
+## 🖼 Screenshots
+![Dashboard Screenshot](./frontend/public/screenshot-for-readme.png)
+> Replace this with multiple screenshots of your running app
 
 ---
 
 ## 🛠 Tech Stack
 
 ### Frontend
-
-* React
-* Vite
-* TanStack Query
+* React, Vite, TanStack Query  
 * Stream Video SDK
 
 ### Backend
-
-* Node.js
-* Express.js
-* MongoDB
-* Inngest (background job processing)
+* Node.js, Express.js  
+* MongoDB  
+* Inngest (async jobs)
 
 ### Authentication
-
 * Clerk
 
 ### Deployment
-
-* Cloud hosting (free-tier supported)
+* Cloud hosting (Vercel, Netlify, Sevalla free-tier friendly)
 
 ---
 
-# ⚙️ Environment Variables
+## ⚙️ Environment Variables
 
-## Backend (`/backend`)
-
+### Backend (`/backend`)
 ```env
 PORT=3000
 NODE_ENV=development
-
 DB_URL=your_mongodb_connection_url
 
 INNGEST_EVENT_KEY=your_inngest_event_key
@@ -72,58 +82,3 @@ CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
 CLERK_SECRET_KEY=your_clerk_secret_key
 
 CLIENT_URL=http://localhost:5173
-```
-
----
-
-## Frontend (`/frontend`)
-
-```env
-VITE_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
-
-VITE_API_URL=http://localhost:3000/api
-
-VITE_STREAM_API_KEY=your_stream_api_key
-```
-
----
-
-# ▶️ Running the Project Locally
-
-### 1️⃣ Start Backend Server
-
-```bash
-cd backend
-npm install
-npm run dev
-```
-
----
-
-### 2️⃣ Start Frontend
-
-```bash
-cd frontend
-npm install
-npm run dev
-```
-
----
-
-# 📌 Project Overview
-
-This project demonstrates how a **modern full-stack interview platform** can be built using scalable technologies like **React, Node.js, MongoDB, and real-time video APIs**.
-
-It simulates a real coding interview environment where candidates can **write code, run test cases, communicate via video, and receive instant feedback**.
-
----
-
-# 👨‍💻 Author
-
-Developed by **Utkarsh Johari**
-
----
-
-# ⭐ Support
-
-If you like this project, consider giving it a **star on GitHub**.
