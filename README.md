@@ -81,13 +81,15 @@ VITE_STREAM_API_KEY=your_stream_api_key
 
 ```
 ▶️ Run Project Locally
+
 1️⃣ Start Backend
 ```
 cd backend
 npm install
 npm run dev
-
+```
 2️⃣ Start Frontend
+```
 cd frontend
 npm install
 npm run dev
