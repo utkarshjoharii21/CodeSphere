@@ -1,6 +1,6 @@
 # 🚀 CodeSphere – Full-Stack Coding Interview Platform
 
-![CodeSphere Banner](frontend/public/screenshot-for-readme.png.png)
+
 
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
